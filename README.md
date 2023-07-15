@@ -17,7 +17,7 @@ Generating numbers and marking evens, odds and prime numbers with three differen
 
 ## Features
 - Responsive
-- Distinguish prime, even and odd numbers
+- Distinguish prime(red), even(green) and odd(yellow) numbers
 - Enter key works in the input field
 
 ### Links
