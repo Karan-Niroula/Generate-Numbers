@@ -1,0 +1,4 @@
+--yellow: rgb(247, 220, 92);
+  --green: rgb(100, 189, 122);
+  --red: rgb(235, 105, 91);
+  --errorColor: rgb(241, 140, 131);

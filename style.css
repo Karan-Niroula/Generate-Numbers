@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --yellow: rgb(247, 220, 92);
+  --green: rgb(100, 189, 122);
+  --red: rgb(235, 105, 91);
+  --errorColor: rgb(241, 140, 131);
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header h1 {
+  color: var(--green);
+  margin-top: 5px;
+  letter-spacing: 3px;
+}
+header p:nth-of-type(1) {
+  margin-top: 4px;
+  text-align: center;
+}
+header p:nth-of-type(2) {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.671);
+  margin-top: 2px;
+}
+.errorContainer {
+  width: 50%;
+  height: 40px;
+}
+#errorMessage {
+  transform: translateY(15px);
+  color: var(--errorColor);
+  font-size: smaller;
+}
+.inputfield {
+  width: 50%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.inputfield input {
+  width: 75%;
+  border: 2px solid var(--green);
+  padding: 5px;
+  outline: none;
+}
+.inputfield button {
+  padding: 5px;
+  width: 20%;
+  font-size: clamp(6px, 10vh, 12px);
+  color: white;
+  border: none;
+  font-weight: 500;
+  background-color: var(--green);
+}
+.inputfield button:hover {
+  background-color: rgb(81, 155, 100);
+  cursor: pointer;
+}
+
+.numContainer {
+  margin-top: 20px;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2px;
+}
+.numContainer p {
+  display: flex;
+  min-height: 50px;
+  color: white;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
